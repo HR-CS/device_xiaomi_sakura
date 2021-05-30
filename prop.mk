@@ -24,3 +24,7 @@ persist.vendor.camera.isp.clock.optmz=0 \
 persist.vendor.camera.stats.test=5 \
 persist.vendor.camera.CDS=off \
 persist.camera.HAL3.enabled=1
+
+# Zygote preforking
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.device_config.runtime_native.usap_pool_enabled=true
